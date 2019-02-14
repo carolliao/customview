@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom_attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.didanuo.robot.customview.MainActivity"
+    android:orientation="vertical">
+
+    <com.didanuo.robot.customview.views.CustomCombineEditTextSetting
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom_attrs:titleText="温度设置"
+        custom_attrs:titleTextSize="22sp"
+        custom_attrs:tipsText="自定义测试控件"
+        custom_attrs:tipsTextSize="10sp"
+        custom_attrs:tipsTextColor="#ff7777"
+        custom_attrs:inputLayoutWidth="250dp"/>
+
+    <com.didanuo.robot.customview.views.CustomCombineEditTextSetting
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom_attrs:titleText="温度设置"
+        custom_attrs:titleTextSize="22sp"
+        custom_attrs:tipsText="自定义测试控件2"
+        custom_attrs:tipsTextSize="10sp"
+        custom_attrs:tipsTextColor="#ff7777"
+        custom_attrs:inputLayoutWidth="250dp"/>
+
+    <com.didanuo.robot.customview.views.CustomCombineTimePickerSetting
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom_attrs:inputLayoutWidth="240dp"
+        custom_attrs:tipsText="自定义测试控件3"
+        custom_attrs:tipsTextColor="#ff7777"
+        custom_attrs:tipsTextSize="10sp"
+        custom_attrs:titleText="时间设置控件"
+        custom_attrs:titleTextSize="22sp" />
+
+
+</LinearLayout>

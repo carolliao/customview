@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize"  format="dimension|reference"/>
+    <attr name="tipsText" format="string"/>
+    <attr name="tipsTextColor" format="color"/>
+    <attr name="tipsTextSize"  format="dimension|reference"/>
+    <attr name="inputLayoutWidth" format="dimension"/>
+    <attr name="inputTextSize"  format="dimension|reference"/>
+    <declare-styleable name="CustomCombineEditTextSetting">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize"  />
+        <attr name="tipsText" />
+        <attr name="tipsTextColor" />
+        <attr name="tipsTextSize"  />
+        <attr name="inputLayoutWidth" />
+        <attr name="inputTextSize" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomCombineTimePickerSetting">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize"  />
+        <attr name="tipsText" />
+        <attr name="tipsTextColor" />
+        <attr name="tipsTextSize"  />
+        <attr name="inputLayoutWidth" />
+        <attr name="inputTextSize"  />
+    </declare-styleable>
+</resources>
+

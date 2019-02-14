@@ -11,7 +11,7 @@ Android自定义控件练习
     2-2、属性文件名字可任意  
     ![](https://github.com/carolliao/customview/blob/master/README.img/3.png)  
     只是在使用自定义控件属性时要匹配  
-    ！[](https://github.com/carolliao/customview/blob/master/README.img/1.png)  
+    ![](https://github.com/carolliao/customview/blob/master/README.img/1.png)  
     2-3、自定义属性被多个控件共用   
     将需要共用的属性放在<declare-styleable></declare-styleable>之外  
     ![](https://github.com/carolliao/customview/blob/master/README.img/2.png)  
